@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./assets/pokemon-1600481.jpg);
+    min-height: 800px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#textBox{
+    margin-top: 300px;
+    margin-left: 550px;
+    align-items: center;
+    position: center;
+}
+#locationId{
+    margin-top: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 5px;
+}
+
+#getLocation {
+    align-items: center;
+    padding: -5px 30px;
+    padding: 3px 3px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 12px;
+    background: red;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    position: center;
+}
