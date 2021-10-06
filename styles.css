@@ -4,36 +4,54 @@
 }
 
 body{
-    background-image: url(./assets/pokemon-1600481.jpg);
+    background-image: url(./assets/pikachu.png);
     min-height: 800px;
-    width: 100%;
+    width:auto;
     background-position: center;
     background-size: cover;
 }
 
-#textBox{
-    margin-top: 300px;
-    margin-left: 550px;
+.mainBody{
+    width: 300px;
+    height: 300px;
     align-items: center;
-    position: center;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 800px;
 }
+.mainBody h1{
+    font-size: 90px;
+    font-weight: 600;
+    font-family: fantasy;
+    color: orange;
+    position:relative;
+    text-align: center;
+}
+
+.mainBody p{
+    font-size: 25px;
+    font-family: monospace;
+    color: orange;
+    position: relative;
+    text-align: center;
+}
+
 #locationId{
-    margin-top: auto;
-    margin-left: auto;
     background-color: white;
     padding: 5px;
 }
 
 #getLocation {
     align-items: center;
-    padding: -5px 30px;
-    padding: 3px 3px;
+    padding: -10px 80px;
+    padding: 6px 6px;
     margin: auto;
-    border: 2px solid black;
+    border: 10px solid black;
     border-radius: 12px;
-    background: red;
+    background: rgb(255, 105, 18);
     color: black;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 20px;
     position: center;
+    text-align: center;
 }
